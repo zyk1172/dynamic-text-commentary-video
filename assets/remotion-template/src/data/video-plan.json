@@ -1,0 +1,23 @@
+{
+  "durationMs": 1000,
+  "titleLines": ["动态文字", "解说视频"],
+  "titleColors": ["#9B5CFF", "#48C6EF"],
+  "scenes": [
+    {
+      "id": "scene-001",
+      "startMs": 0,
+      "endMs": 1000,
+      "titleLines": ["动态文字", "解说视频"],
+      "titleColors": ["#9B5CFF", "#48C6EF"],
+      "accentColor": "#9B5CFF",
+      "emphasis": [],
+      "animationAssetId": "cat-thinking",
+      "animationAssetPath": "characters/cat-thinking.png",
+      "companionAnimationAssetId": "woman-questioning-vector",
+      "companionAnimationAssetPath": "characters/woman-questioning-vector.png",
+      "imageMotion": "slow-zoom-in",
+      "textAnimation": "masked-rise",
+      "transcriptSentenceIds": ["sentence-001"]
+    }
+  ]
+}
