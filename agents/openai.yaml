@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dynamic Text Commentary Video"
+  short_description: "Render Chinese dynamic text commentary videos."
+  default_prompt: "Use $dynamic-text-commentary-video to process /path/to/project."

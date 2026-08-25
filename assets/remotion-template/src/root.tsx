@@ -1,0 +1,2 @@
+import {Composition} from 'remotion'; import media from './data/media.json'; import style from './data/style-profile.json'; import {VideoComposition} from './video';
+export const Root=()=> <Composition id="DynamicTextCommentary" component={VideoComposition} width={style.width} height={style.height} fps={style.fps} durationInFrames={media.durationInFrames} calculateMetadata={()=>Promise.resolve({durationInFrames:media.durationInFrames})}/>;

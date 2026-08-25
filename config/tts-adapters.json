@@ -1,0 +1,1 @@
+{"defaultAdapter":"mimo-v2.5-tts","adapters":[{"id":"mimo-v2.5-tts","type":"openai-compatible-chat-audio","baseUrl":"https://api.xiaomimimo.com/v1/chat/completions","apiKeyEnvironmentVariable":"MIMO_API_KEY","model":"mimo-v2.5-tts","voice":"冰糖","format":"wav","style":"用自然、清晰、克制的普通话讲述；语速平稳，保留标点停顿，不使用夸张情绪。"}]}
